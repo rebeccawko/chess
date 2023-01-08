@@ -1,0 +1,23 @@
+System Requirements
+Windows, Mac, or Linux OS
+UCI Linux Server access
+Cisco AnyConnect Mobility Client
+SSH client in case of Windows OS
+Gcc compiler
+Math library
+Access to the Team 15 repository
+
+Setup and Configuration
+Login to UCI servers on SSH client
+If off UCI campus turn on Cisco AnyConnect to gain access to remote servers
+Create a directory to hold the project (if wanted)
+Type on Linux Server in created directory
+    > Git Pull
+    > cd Team15/bin
+    > make run
+
+Uninstalling
+Login to UCI servers on SSH client
+Type on Linux Server in directory containing just the project
+    > make clean
+    > rm -rf ../../Team15
